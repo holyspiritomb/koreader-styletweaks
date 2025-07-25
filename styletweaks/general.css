@@ -1,0 +1,30 @@
+img[style*="400px"],
+img[style*="width: 2000px"] {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+}
+blockquote.instagram-media[style] {
+    border: 1px solid #000 !important;
+    border-radius: 4px !important;
+}
+.kg-image-card {
+    border: 1px solid #000 !important;
+}
+.kg-callout-card {
+    border: 1px solid #000 !important;
+    border-radius: 4px !important;
+    padding: 1rem;
+    color: #444;
+}
+.kg-callout-text {
+    font-size: 0.7rem;
+}
+.kg-callout-emoji {
+    font-family: emoji !important;
+}
+a:after {
+    /* content: "🔗"; */
+    font-family: emoji !important;
+    content: '\1f517' !important;
+}
