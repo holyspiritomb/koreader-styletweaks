@@ -40,6 +40,7 @@
     font-size: 4rem;
 }
 
+/* prevent subscripts and superscripts from affecting line-height */
 sub,
 sup {
     font-size: 75%;
